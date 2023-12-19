@@ -1,0 +1,276 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #f3f3f4;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+body::-webkit-scrollbar {
+  width: 0px;
+}
+
+body::-webkit-scrollbar-track {
+  background-color: #250c0500;
+}
+
+body::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background: -webkit-linear-gradient(45deg, #f97d2500, #f9e02500 80%);
+}
+
+/* register page css open here */
+.closeicons{
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  cursor: pointer;
+}
+.register-header-wrp{
+  display: flex;
+  justify-content: space-between;
+}
+.wrp-registraion-box{
+  padding: 25px;
+  width: 94%;
+}
+.parent-header-wrp > h3{
+  color: #051836;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+.reg-heading > h3{
+  color: #051836;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+.lines{
+  width: 100%;
+  height: 2px;
+  margin-top: 10px;
+  background-color: #05183661;
+}
+
+.reg-heading{
+  align-self: center;
+}
+.reg-img{
+  align-self: center;
+}
+.inputlisttop{
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+}
+.inputlisttop > li{
+  margin-top: 15px;
+}
+.listlablewrp{
+  display: flex;
+}
+.labelinput{
+  width: 20%;
+  align-self: center;
+}
+.labelinput > label{
+  margin: 0px;
+  font-size: 13px;
+  color: #000;
+  font-weight: 700;
+}
+.inputwrptop{
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-self: center;
+}
+.inputfield{
+  width: 49%;
+}
+.inputfield > input{
+  width: 100%;
+  border: 1px solid #051836;
+  padding: 6px 15px;
+  border-radius: 6px;
+  font-size: 14px;
+  background-color: #f5f6f7;
+}
+.inputwrpsingle{
+  width: 100%! important;
+}
+.inputwrpsingle > input{
+  width: 100%;
+}
+.inputfield > select{
+  width: 100%;
+  color: #000000b0;
+  border: 1px solid #051836;
+  padding: 6px 12px;
+  border-radius: 6px;
+  font-size: 14px;
+  background-color: #f5f6f7;
+}
+.custom-radio input[type='radio'] {
+  width: 18px;
+  height: 18px;
+  border: 1px solid #999;
+  border-radius: 50%;
+  outline: none;
+  transition: box-shadow 0.3s ease;
+  vertical-align: middle;
+}
+.custom-radio > label{
+  display: inline-block;
+  margin-left: 5px;
+  margin-bottom: 0px;
+  vertical-align: middle;
+}
+.femalinput{
+  margin-left: 20px;
+}
+.lines2{
+  width: 100%;
+  height: 2px;
+  margin-top: 5px;
+  background-color: #05183661;
+}
+.register-bg{
+  background-color: #fff;
+}
+.regismrtop{
+  margin-top: 40px! important;
+}
+.childheading{
+  font-size: 20px;
+}
+.childlistitem{
+  margin-top: 20px;
+}
+.removebtn{
+  font-weight: 700;
+  font-size: 13px;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 6px 15px;
+  width: 120px;
+  background-color: red;
+}
+.wrpremovebtn{
+  text-align: left;
+  margin-top: 10px;
+}
+.addbtns{
+  margin-top: 10px;
+  font-weight: 700;
+  width: 120px;
+    font-size: 13px;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    padding: 6px 15px;
+    background-color: #213F6F;
+}
+.submit-btn{
+  text-align: center;
+}
+.submit-btn > button{
+  margin-top: 10px;
+  font-weight: 700;
+    font-size: 13px;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    padding: 8px 30px;
+    background-color: #213F6F;
+}
+.table-box{
+  margin-top: 35px;
+}
+th span{
+ font-weight: 700;
+}
+.view{
+  display: inline-block;
+  margin-right: 10px;
+  font-size: 15px;
+  color: #000;
+  cursor: pointer;
+}
+/* register page css closed here */
+
+
+
+/* responsive css open here */
+
+@media(max-width: 992px) {
+  .listlablewrp{
+    display: inherit;
+  }
+  .labelinput > label{
+    margin-bottom: 5px;
+  }
+  .inputwrptop{
+    width: 100%;
+  }
+  .wrp-registraion-box{
+    width: 100%;
+  }
+  .labelinput{
+    width: 100%;
+  }
+  .inputlisttop > li {
+    margin-top: 10px;
+}
+.wrp-registraion-box{
+  padding: 25px 15px;
+}
+}
+
+@media(max-width: 767px) {
+  .register-header-wrp {
+    display: flex;
+    justify-content: center;
+    flex-direction: column-reverse;
+}
+  .reg-heading {
+    align-self: center;
+    margin-top: 20px;
+  }
+  .labelinput > label{
+    font-size: 12px;
+  }
+  .reg-heading > h3{
+    font-size: 18px;
+  }
+  .mobile-reg-heading > h3{
+    font-size: 13px! important;
+  }
+  .childheading {
+    font-size: 16px;
+  }
+  .removebtn{
+    width: 100%;
+  }
+  .addbtns{
+    width: 100%;
+  }
+  .submit-btn > button{
+    width: 100%;
+    margin-bottom: 20px;
+  }
+}
+
+.rtl-input {
+  direction: rtl;
+  /* Other styles */
+}
+
+/* responsive css closed here */

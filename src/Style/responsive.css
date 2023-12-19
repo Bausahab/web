@@ -1,0 +1,239 @@
+@media(max-width: 1200px) {
+   .left-side-l {
+      width: 20% !important;
+   }
+}
+
+@media(max-width: 1166px) {
+
+
+
+
+   .left-side-l-c {
+      width: 5%;
+   }
+
+   .right-side-r-c {
+      width: 100%;
+   }
+
+   .details-label {
+      width: 50% !important;
+   }
+
+   .select-slots {
+      flex-direction: column !important;
+      gap: 5px !important;
+   }
+
+   .date-div {
+      flex-direction: column !important;
+   }
+
+   .css-1vnbc2 {
+      width: 60% !important;
+   }
+
+   .css-mpqdz2 {
+      width: 50% !important;
+   }
+
+   .left-side-l {
+      width: 26% !important;
+   }
+
+}
+
+@media(max-width: 992px) {
+   .css-1vnbc2 {
+      width: 70% !important;
+   }
+
+   .details-label {
+      width: 30% !important;
+   }
+
+   .slot-dates-labels1,
+   .slot-dates-labels {
+      width: 30% !important;
+   }
+
+   .css-eb03jv {
+      width: 50% !important;
+   }
+
+   .left-side-l-c {
+      /* width: 60%; */
+      width: 30%;
+      position: absolute;
+      z-index: 4000;
+   }
+
+   .css-mpqdz2 {
+      width: 60% !important;
+   }
+
+   .css-1fxx098 {
+      width: 53% !important;
+   }
+
+
+}
+
+@media(max-width: 767px) {
+   .css-mpqdz2 {
+      width: 90% !important;
+      top: 40% !important;
+   }
+   .filter-slect{
+      width: 45%;
+   }
+
+
+   .update-profile-div2 {
+      flex-direction: column !important;
+   }
+
+   .deleteCircle {
+      font-size: 3rem !important;
+   }
+
+   .left-side-l-c {
+      width: 60%;
+      /* width: 30%; */
+      position: absolute;
+      z-index: 4000;
+   }
+
+   .css-724ceh {
+      width: 80% !important;
+   }
+
+   .date-pick {
+      width: 100% !important;
+   }
+
+   .css-1fxx098 {
+      width: 90% !important;
+   }
+
+   .css-1q1u3t4-MuiTableRow-root {
+      overflow: auto !important;
+   }
+
+   .makeStyles-Card__box-10 {
+      padding: 1rem !important;
+   }
+
+   /* .makeStyles-mainDiv-2{
+      background-color: #08250cbd !important;
+   } */
+   .row1 {
+      flex-direction: column !important;
+      margin: 0rem !important;
+      padding: 0rem !important;
+      align-items: flex-start !important;
+      width: 100% !important;
+      gap: 10px;
+   }
+
+   .action-btn,
+   .click-btn-cls,
+   .drop-box2 {
+      width: 50% !important;
+      outline: none !important;
+   }
+
+   .w-cls,
+   .add-btn-cls,
+   .search-box,
+   .right-btn-div {
+      width: 100% !important;
+   }
+
+   .w3-cls {
+      width: 33% !important;
+   }
+
+   .input-search {
+      width: 99% !important;
+   }
+
+   .body-container {
+      max-width: 100vw;
+   }
+
+   .right-side-r-c {
+      height: 100vh !important;
+      overflow: auto;
+   }
+
+   .css-1vnbc2 {
+      width: 90% !important;
+      /* height: 55% !important; */
+      top: 39vmax !important;
+   }
+
+   .css-eb03jv {
+      width: 85% !important;
+      top: 40% !important;
+   }
+
+   .details-label {
+      width: 50% !important;
+   }
+
+   .card-gap {
+      gap: 10px;
+   }
+
+   .slot-dates-labels {
+      width: 100% !important;
+   }
+
+   .slot-dates-labels1 {
+      width: 100% !important;
+   }
+
+   .select-slots {
+      flex-direction: column !important;
+      gap: 5px !important;
+   }
+
+   .react-datepicker-wrapper {
+      width: 100% !important;
+   }
+
+   .date-div {
+      flex-direction: column !important;
+      gap: 5px !important;
+   }
+
+   .profile-row1 {
+      flex-direction: column !important;
+      padding: 1rem 0.5rem !important;
+   }
+
+
+}
+
+@media(max-width: 400px) {
+   /* .slot-dates-labels{
+      width: 30% !important;
+   }
+   .slot-dates-labels1{
+      width: 100% !important;
+   }
+   .select-slots{
+      flex-direction: column !important;
+      gap: 5px !important;
+   }
+   .react-datepicker-wrapper{
+      width: 100% !important;
+   }
+   .date-div{
+      flex-direction: column !important;
+      gap:5px !important
+   } */
+
+}

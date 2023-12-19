@@ -1,0 +1,142 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{69ae8660-6303-4244-b33d-b01bb68428db}</ProjectGuid>
+    <ProjectHome>.</ProjectHome>
+    <ProjectView>ProjectFiles</ProjectView>
+    <StartupFile>App.js</StartupFile>
+    <WorkingDirectory>C:\Users\Manish\source\repos\app\web</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <ProjectTypeGuids>{3AF33F2E-1136-4D97-BBB7-1795711AC8B8};{349c5851-65df-11da-9384-00065b846f21};{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}</ProjectTypeGuids>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">16.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+    <StartWebBrowser>True</StartWebBrowser>
+    <SaveNodeJsSettingsInProjectFile>True</SaveNodeJsSettingsInProjectFile>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)' == 'Debug'" />
+  <PropertyGroup Condition="'$(Configuration)' == 'Release'" />
+  <ItemGroup>
+    <Content Include="_il8n\il8n.js" />
+    <Content Include="index.css" />
+    <Content Include="login_bg.png" />
+    <Content Include="logo.svg" />
+    <Content Include="App.js" />
+    <Content Include="App.test.js" />
+    <Content Include="index.js" />
+    <Content Include="reportWebVitals.js" />
+    <Content Include="setupTests.js" />
+    <Content Include="components\Privateroute.js" />
+    <Content Include="components\Privateroutelogin.js" />
+    <Content Include="config\index.js" />
+    <Content Include="css\style.css" />
+    <Content Include="Style\responsive.css" />
+    <Content Include="Style\style.css" />
+    <Content Include="components\dashboard\Dashboard.js" />
+    <Content Include="components\dashboard\Dashboard2.js" />
+    <Content Include="components\dashboard\EditregistrationDashboard.js" />
+    <Content Include="components\dashboard\RegistrationlistDashboard.js" />
+    <Content Include="components\dashboard\VisitingDashboard.js" />
+    <Content Include="components\header\Footer.js" />
+    <Content Include="components\header\Header.js" />
+    <Content Include="components\header\Navbar.js" />
+    <Content Include="components\header\PageTitle.js" />
+    <Content Include="components\LogIn\LogIn.js" />
+    <Content Include="components\pages\Addappointmentlist.js" />
+    <Content Include="components\pages\DataTable.js" />
+    <Content Include="components\pages\UploadItem.js" />
+    <Content Include="components\sidebar\Sidebar.js" />
+    <Content Include="components\sidebar\SidebarMobile.js" />
+    <Content Include="components\SignIn\SignIn.js" />
+    <Content Include="components\assets\images\Committee.png" />
+    <Content Include="components\assets\images\ksa.png" />
+    <Content Include="components\assets\images\logo1.png" />
+    <Content Include="components\assets\images\mini.png" />
+    <Content Include="components\assets\images\registerlogo.png" />
+    <Content Include="components\assets\images\shield.png" />
+    <Content Include="components\pages\editregistrationlist\Addguest.js" />
+    <Content Include="components\pages\editregistrationlist\ChildForm.js" />
+    <Content Include="components\pages\editregistrationlist\Editregistrationlist.js" />
+    <Content Include="components\pages\home\Home.js" />
+    <Content Include="components\pages\registrationform\Addguest.js" />
+    <Content Include="components\pages\registrationform\ChildForm.js" />
+    <Content Include="components\pages\registrationform\Registration.js" />
+    <Content Include="components\pages\registrationlist\Registrationlist.js" />
+    <Content Include="components\pages\RightSide\RightSide.js" />
+    <Content Include="components\pages\component\Booking\Booking.js" />
+    <Content Include="components\pages\component\CardBox\Card.js" />
+    <Content Include="components\pages\component\CardBox\CardContent.js" />
+    <Content Include="components\pages\component\Header\Header.js" />
+    <Content Include="components\pages\component\visiting\Visiting.js" />
+    <Content Include="_il8n\_ar\ar.json" />
+    <Content Include="_il8n\_en\en.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="components" />
+    <Folder Include="components\assets" />
+    <Folder Include="components\assets\images" />
+    <Folder Include="components\dashboard" />
+    <Folder Include="components\header" />
+    <Folder Include="components\LogIn" />
+    <Folder Include="components\pages" />
+    <Folder Include="components\pages\component" />
+    <Folder Include="components\pages\component\Booking" />
+    <Folder Include="components\pages\component\CardBox" />
+    <Folder Include="components\pages\component\Header" />
+    <Folder Include="components\pages\component\visiting" />
+    <Folder Include="components\pages\editregistrationlist" />
+    <Folder Include="components\pages\home" />
+    <Folder Include="components\pages\registrationform" />
+    <Folder Include="components\pages\registrationlist" />
+    <Folder Include="components\pages\RightSide" />
+    <Folder Include="components\sidebar" />
+    <Folder Include="components\SignIn" />
+    <Folder Include="config" />
+    <Folder Include="css" />
+    <Folder Include="_il8n\" />
+    <Folder Include="_il8n\_ar\" />
+    <Folder Include="_il8n\_en\" />
+    <Folder Include="Style" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.Common.targets" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <Import Project="$(VSToolsPath)\Node.js Tools\Microsoft.NodejsToolsV2.targets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>0</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:48022/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>True</UseCustomServer>
+          <CustomServerUrl>http://localhost:1337</CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}" User="">
+        <WebProjectProperties>
+          <StartPageUrl>
+          </StartPageUrl>
+          <StartAction>CurrentPage</StartAction>
+          <AspNetDebugging>True</AspNetDebugging>
+          <SilverlightDebugging>False</SilverlightDebugging>
+          <NativeDebugging>False</NativeDebugging>
+          <SQLDebugging>False</SQLDebugging>
+          <ExternalProgram>
+          </ExternalProgram>
+          <StartExternalURL>
+          </StartExternalURL>
+          <StartCmdLineArguments>
+          </StartCmdLineArguments>
+          <StartWorkingDirectory>
+          </StartWorkingDirectory>
+          <EnableENC>False</EnableENC>
+          <AlwaysStartWebServerOnDebug>False</AlwaysStartWebServerOnDebug>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

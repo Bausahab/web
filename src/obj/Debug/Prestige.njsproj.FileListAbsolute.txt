@@ -1,0 +1,2 @@
+C:\Users\Manish\source\repos\app\web\src\obj\Debug\Prestige.njsproj.CoreCompileInputs.cache
+C:\Users\Manish\source\repos\app\web\src\bin\Microsoft.NodejsTools.WebRole.dll
